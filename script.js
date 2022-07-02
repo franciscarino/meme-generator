@@ -1,11 +1,8 @@
 const form = document.querySelector("#form");
-const inputFields = document.querySelectorAll("input");
 const imgInput = document.querySelector('input[name="img-url"]');
 const topTextInput = document.querySelector('input[name="top-text"]');
 const bottomTextInput = document.querySelector('input[name="bottom-text"]');
 const memeContainer = document.querySelector("#meme-container");
-const resetButton = document.querySelector("button");
-const memes = document.querySelector("#meme");
 
 form.addEventListener("submit", function (e) {
   e.preventDefault();

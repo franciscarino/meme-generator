@@ -4,7 +4,6 @@ body {
   background-image: url(doge.jpg);
   background-size: cover;
   background-position: center;
-  /* display: flex; */
   flex-direction: column;
   justify-content: center;
 }
@@ -95,9 +94,6 @@ p input {
 }
 
 #meme-container {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -106,11 +102,6 @@ p input {
 }
 
 #meme {
-  /* position: relative;
-  display: flex;
-  justify-content: center;
-  height: 300px;
-  margin-top: 4%; */
   position: relative;
   display: flex;
   flex-wrap: wrap;

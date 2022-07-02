@@ -1,0 +1,165 @@
+body {
+  height: 95vh;
+  width: 90%;
+  background-image: url(doge.jpg);
+  background-size: cover;
+  background-position: center;
+  /* display: flex; */
+  flex-direction: column;
+  justify-content: center;
+}
+.meme-form {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  color: #ffb300fe;
+  font-size: 70px;
+  font-family: "Shadows Into Light", cursive;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  text-shadow: 4px 4px #000000;
+}
+
+.sub-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.meme-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 50vh;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+p label {
+  display: inline-block;
+  align-items: flex-start;
+  height: 14px;
+  padding: 5px;
+}
+p input {
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+#input-fields {
+  flex-direction: column;
+}
+
+#input-fields label {
+  display: flex;
+}
+
+#buttons {
+  justify-content: space-between;
+}
+
+.button {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: #ffb300fe;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.button:hover {
+  scale: 0.2;
+  transition: 0.2s;
+  background-color: #ff8400fe;
+}
+
+#meme-container {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 40px 0px;
+  gap: 30px;
+}
+
+#meme {
+  /* position: relative;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 4%; */
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-wrap: break-word;
+}
+
+img {
+  max-width: auto;
+  height: 300px;
+  border-radius: 4px;
+}
+
+.top-text {
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  font-family: "Impact";
+  color: #ffffff;
+  font-size: 50px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  overflow-wrap: break-word;
+}
+
+.bottom-text {
+  position: absolute;
+  justify-content: center;
+  bottom: 0;
+  font-family: "Impact";
+  color: #ffffff;
+  font-size: 50px;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  overflow-wrap: break-word;
+}
+
+.delete-btn {
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 25%;
+  color: red;
+}
+
+.delete-btn:hover {
+  height: 20px;
+  margin-left: 10px;
+  margin-top: 25%;
+  color: red;
+  transform: scale(1.2);
+  transition: 0.2s;
+}

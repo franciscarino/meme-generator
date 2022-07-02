@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meme Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Shadows+Into+Light&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="meme-form">
+      <h1 class="title">WHAT DO YOU MEME?</h1>
+      <h3 class="sub-heading">Fill out the form below to make a meme!</h3>
+      <form action="" id="form">
+        <div id="input-fields">
+          <p>
+            <label for="image"> Image URL</label>
+            <input
+              type="text"
+              placeholder="Enter image URL"
+              name="img-url"
+              required
+            />
+          </p>
+          <p>
+            <label for="top-text">Top Text</label>
+            <input
+              type="text"
+              placeholder="Enter top text"
+              name="top-text"
+              required
+            />
+          </p>
+          <p>
+            <label for="bottom-text">Bottom Text</label>
+            <input
+              type="text"
+              placeholder="(Optional) Enter bottom text"
+              name="bottom-text"
+            />
+          </p>
+        </div>
+        <div id="buttons">
+          <input type="submit" class="button" value="MAKE MEME!" />
+          <!-- <button class="button">RESET</button> -->
+        </div>
+      </form>
+    </section>
+    <section id="meme-container">
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

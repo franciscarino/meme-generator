@@ -24,7 +24,7 @@ function makeMeme() {
   memeDiv.appendChild(bottomTextDiv).setAttribute("class", "bottom-text");
   bottomTextDiv.innerHTML = bottomTextInput.value.toUpperCase();
 
-  memeDiv.appendChild(imgDiv).classList.add("img");
+  memeDiv.appendChild(imgDiv).setAttribute("class", "img");
   imgDiv.src = imgInput.value;
 
   memeDiv.appendChild(deleteButton).setAttribute("class", "delete-btn");
